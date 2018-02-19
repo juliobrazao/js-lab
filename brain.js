@@ -9,7 +9,7 @@ var ano = new Date().getFullYear();
 
 // dando nomes aos dias da semana
 var nomeDia = new Date();
-var dias = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"]
+var dias = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"]
 
 // dando nomes aos meses do ano
 var nomeMes = new Date();
