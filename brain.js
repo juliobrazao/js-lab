@@ -20,10 +20,15 @@ var diaBr = dias[nomeDia.getDay()];
 var mesBr = meses[nomeMes.getMonth()];
 
 
-var mensagem = "Hoje é " + diaBr + ", dia " + dia + " de " + mesBr + " do ano de " + ano + ".";
+var mensagem = "Hoje é " + diaBr + ", dia " + dia + " de " + mesBr + " de " + ano + ".";
 
 function dateBr(){
 
     saida.innerHTML = mensagem;
 
 }
+
+// criando mensagem para header "today" no 'body.html'
+var today = document.getElementById("today");
+
+today.innerHTML=mensagem;
