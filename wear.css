@@ -1,6 +1,16 @@
 * {
-    font-family: sans-serif
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0 auto;
 }
-h1:hover {
-    color: red;
+header {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background: #000;
+}
+p#today {
+    font-weight: bold;
+    color: #fff;
+    padding: 1em 0;
 }
