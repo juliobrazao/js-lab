@@ -19,14 +19,8 @@ var meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho"
 var diaBr = dias[nomeDia.getDay()];
 var mesBr = meses[nomeMes.getMonth()];
 
-
+// mensagem de saudação
 var mensagem = "Hoje é " + diaBr + ", dia " + dia + " de " + mesBr + " de " + ano + ".";
-
-function dateBr(){
-
-    saida.innerHTML = mensagem;
-
-}
 
 // criando mensagem para header "today" no 'body.html'
 var today = document.getElementById("today");
