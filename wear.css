@@ -9,6 +9,10 @@ header {
     text-align: center;
     background: #000;
 }
+header h1 {
+    padding: 0.5em;
+    color: #fff;
+}
 p#today {
     font-weight: bold;
     color: #fff;
