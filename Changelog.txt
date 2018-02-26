@@ -1,1 +1,3 @@
 // Demonstrando como funciona o GIT
+
+// Funções novas adicionadas
